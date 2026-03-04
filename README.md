@@ -18,6 +18,7 @@ Production-ready утилита для управления доступом к 
 
 🎯 Гранулярный контроль: Позволяет создавать точечные доступы (IP -> Протокол -> Порт) изолированно от общих GeoIP-правил.
 
+
 Установка (First-time-right)
 
 Поддерживаемые ОС: Debian 11/12/13, Ubuntu 20.04/22.04/24.04 и любые дистрибутивы с поддержкой nftables.
@@ -25,7 +26,7 @@ Production-ready утилита для управления доступом к 
 # 1. Установите nftables (если еще не установлен)
 sudo apt update && sudo apt install nftables python3 -y
 
-# 2. Скачайте скрипт в исполняемую директорию
+# 2. Скачайте скрипт в исполняемую директорию (замените ВАШ_ГИТХАБ на свой логин)
 sudo curl -o /usr/local/bin/update_isp_ips.py [https://raw.githubusercontent.com/ВАШ_ГИТХАБ/geoip-nftables-manager/main/update_isp_ips.py](https://raw.githubusercontent.com/ВАШ_ГИТХАБ/geoip-nftables-manager/main/update_isp_ips.py)
 
 # 3. Выдайте права на исполнение
