@@ -1,4 +1,4 @@
-GeoIP nftables CLI Manager 🛡️
+# GeoIP nftables CLI Manager 🛡️
 
 Production-ready утилита для управления доступом к Linux-серверам на базе nftables. Позволяет ограничивать доступ (SSH, HTTP/S) только для абонентов конкретных провайдеров (по BGP ASN) или точечных IP-адресов.
 
