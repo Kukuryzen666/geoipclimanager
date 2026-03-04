@@ -46,7 +46,7 @@ sudo apt update && sudo apt install nftables python3 -y
 
 # 2. Скачайте скрипт в исполняемую директорию
 sudo curl -o /usr/local/bin/update_isp_ips.py \
-  https://raw.githubusercontent.com/ВАШ_ГИТХАБ/geoip-nftables-manager/main/update_isp_ips.py
+  https://github.com/Kukuryzen666/geoipclimanager/releases/download/Release/update_isp_ips.py
 
 # 3. Выдайте права на исполнение
 sudo chmod +x /usr/local/bin/update_isp_ips.py
@@ -115,7 +115,7 @@ sudo update_isp_ips.py
 Все логи (включая срабатывания от Cron) пишутся в:
 
 ```
-/home/kukurin/geoip_update.log
+/home/root/geoip_update.log
 ```
 
 ---
